@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+</head>
+<body>
+
+    <section class="section-Button">
+        <main>
+            <p class="p-button">Avez-vous déjà un compte ?</p>
+        </main>
+        <main class="main-Button">
+            <button onclick="ButtonActionYes()">
+                Oui
+            </button>
+            <button onclick="ButtonActionNo()">
+                Non
+            </button>
+        </main>
+    </section>
+
+    <section class="section-action">
+        <main>
+            <p id="Directionseconde"></p>
+        </main>
+        <main>
+            <h3>
+                S'inscrire
+            </h3>
+        </main>
+        <main class="mainAction">
+            <h3>
+                Identifiant :
+                <input type="text" placeholder="Entrez votre nom ou email" class="inputActionID" id="inputActionID">
+           </h3>
+            <h3>
+                Mot de passe :
+                <input type="password" placeholder="Entrez votre mot de passe" class="inputActionPassword" id="inputActionPassword">
+            </h3>
+            <button class="button-Action" onclick="buttonActionSave()">
+                Se connecter
+            </button>
+        </main>
+    </section>
+
+    <section class="section-action">
+        <main>
+            <p id="Direction"></p>
+        </main>
+        <main>
+            <h3>
+                Se connecter
+            </h3>
+        </main>
+        <main class="mainAction">
+            <h3>
+                Identifiant :
+                <input type="text" placeholder="Entrez votre nom ou email" class="inputExecutionID" id="inputExecutionID">
+            </h3>
+            <h3>
+                Mot de passe :
+                <input type="password" placeholder="Entrez votre mot de passe" class="inputExecutionPassword" id="inputExecutionPassword">
+            </h3>
+            <p id="pespons"></p>
+            <button class="button-Action" onclick="buttonActionExecution()">
+                Se connecter
+            </button>
+        </main>
+    </section>
+
+</body>
+</html>
